@@ -1,4 +1,4 @@
-
+library(“deepnet”, lib.loc=”~/R/x86_64-pc-linux-gnu-library/3.0″)
 #Data Loading 
 train <- read.delim("~/bangla_data/train.csv", header=FALSE)
 test <- read.delim("~/bangla_data/test.csv", header=FALSE)
